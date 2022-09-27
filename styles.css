@@ -1,0 +1,5 @@
+/*font-family: 'Quicksand', sans-serif;*/
+.page-container {
+  display: grid;
+  grid-template-columns: 33vw 67vw;
+}

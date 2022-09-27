@@ -1,5 +1,16 @@
 /*font-family: 'Quicksand', sans-serif;*/
+
+body {
+  margin: 0 0;
+}
+
 .page-container {
   display: grid;
-  grid-template-columns: 33vw 67vw;
+  grid-template-columns: 35vw 65vw;
+  grid-template-rows: 100vh;
+}
+
+.graphic-container {
+  background-image: url("imgs/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: 35vw 100vh;
 }

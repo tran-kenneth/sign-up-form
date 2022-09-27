@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "NorseBold";
+  font-family: "Norse-Bold";
   src: url(Norse-Bold.otf) format("opentype");
 }
 
@@ -16,10 +16,15 @@ body {
 .graphic-container {
   background-image: url("imgs/halie-west-25xggax4bSA-unsplash.jpg");
   background-size: 35vw 100vh;
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 25vh 20vh 55vh;
 }
 
 .title-container {
   display: flex;
+  justify-content: center;
 }
 
 .odin-logo,
@@ -37,5 +42,11 @@ body {
   font-size: 80px;
   font-weight: 700;
   margin: 0 0;
-  font-family: "NorseBold", sans-serif;
+  font-family: "Norse-Bold", sans-serif;
+}
+
+.photo-credit-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }

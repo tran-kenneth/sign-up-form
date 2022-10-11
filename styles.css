@@ -53,24 +53,66 @@ body {
   align-items: flex-end;
 }
 
-.photo-credit-container p, .photo-credit-container a {
-  color:rgba(248, 248, 248, 0.82); 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.photo-credit-container p,
+.photo-credit-container a {
+  color: rgba(248, 248, 248, 0.82);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 12px;
 }
 
-.description-container{
+.description-container {
   padding-left: 3vw;
   padding-right: 12vw;
 }
-.description-container p{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.description-container p {
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
-.desc-line-1{
+.desc-line-1 {
   margin-bottom: 0;
 }
-.desc-line-2{
+.desc-line-2 {
   margin-top: 0;
+}
+
+.form-container {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 3vw;
+  padding-right: 12vw;
+  padding-bottom: 3vw;
+  padding-top: 3vw;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  grid-template-rows: 50px 50px 50px;
+  grid-template-areas: "a b" "c d" "e f";
+}
+
+.form-fname {
+  grid-area: a;
+}
+.form-lname {
+  grid-area: b;
+}
+.form-email {
+  grid-area: c;
+}
+.form-phone {
+  grid-area: d;
+}
+.form-pass {
+  grid-area: e;
+}
+.form-pass2 {
+  grid-area: f;
+}
+
+.form-container label {
+  font-size: 10px;
+  font-weight: 700;
 }

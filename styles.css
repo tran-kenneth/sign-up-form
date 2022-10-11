@@ -19,12 +19,14 @@ body {
 
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 25vh 20vh 55vh;
+  grid-template-rows: 22vh 16vh 62vh;
 }
 
 .title-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.427);
 }
 
 .odin-logo,
@@ -34,12 +36,12 @@ body {
 
 .odin-logo {
   width: auto;
-  height: 80px;
+  height: 100px;
 }
 
 .odin-title {
   color: white;
-  font-size: 80px;
+  font-size: 90px;
   font-weight: 700;
   margin: 0 0;
   font-family: "Norse-Bold", sans-serif;

@@ -60,9 +60,16 @@ body {
   font-size: 12px;
 }
 
+.text-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
 .description-container {
   padding-left: 3vw;
   padding-right: 12vw;
+  padding-top: 12vh;
 }
 .description-container p {
   font-family: "Montserrat", sans-serif;
@@ -82,15 +89,21 @@ body {
   font-weight: 700;
   padding-left: 3vw;
   padding-right: 12vw;
-  padding-bottom: 3vw;
-  padding-top: 3vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  background-color: aliceblue;
 }
 
 form {
   display: grid;
   grid-template-columns: 5fr 5fr;
-  grid-template-rows: 50px 50px 50px;
+  grid-template-rows: 70px 70px 70px;
   grid-template-areas: "a b" "c d" "e f";
+}
+
+.form-heading {
+  margin: 0;
+  padding-bottom: 2vh;
 }
 
 .form-fname {
@@ -112,7 +125,16 @@ form {
   grid-area: f;
 }
 
+.form-label-input-pair {
+  margin-bottom: 5px;
+}
+
 .form-container label {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
+}
+
+input {
+  height: 1.5em;
+  width: 16em;
 }

@@ -55,6 +55,22 @@ body {
 
 .photo-credit-container p, .photo-credit-container a {
   color:rgba(248, 248, 248, 0.82); 
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 12px;
+}
+
+.description-container{
+  padding-left: 3vw;
+  padding-right: 12vw;
+}
+.description-container p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.desc-line-1{
+  margin-bottom: 0;
+}
+.desc-line-2{
+  margin-top: 0;
 }

@@ -138,3 +138,33 @@ input {
   height: 1.5em;
   width: 16em;
 }
+
+.action-container {
+  padding-left: 3vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.create-account-button {
+  display: inline-block;
+  --button-color: #596d48;
+  color: white;
+  background-color: var(--button-color);
+  border-style: solid;
+  border-radius: 5px;
+  border-color: var(--button-color);
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 40px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.create-account-button:hover {
+  --button-color: green;
+}
+
+.create-account-button:active {
+  --button-color: #455438;
+  transform: translateY(4px);
+}

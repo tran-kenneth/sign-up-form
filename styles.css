@@ -67,6 +67,7 @@ body {
 }
 
 .description-container {
+  background-color: rgb(250, 250, 250);
   padding-left: 3vw;
   padding-right: 12vw;
   padding-top: 12vh;
@@ -91,7 +92,10 @@ body {
   padding-right: 12vw;
   padding-top: 3vh;
   padding-bottom: 3vh;
-  background-color: aliceblue;
+  background-color: white;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
 }
 
 form {
@@ -140,6 +144,7 @@ input {
 }
 
 .action-container {
+  background-color: rgb(250, 250, 250);
   padding-left: 3vw;
   padding-top: 3vh;
   padding-bottom: 3vh;
@@ -167,4 +172,16 @@ input {
 .create-account-button:active {
   --button-color: #455438;
   transform: translateY(4px);
+}
+
+.action-container p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.action-container a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #596d48;
+  text-decoration: none;
 }
